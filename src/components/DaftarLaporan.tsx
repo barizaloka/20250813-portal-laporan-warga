@@ -28,7 +28,7 @@ const laporanDummy = [
 
 const DaftarLaporan = () => {
   // Fungsi untuk menentukan warna badge status
-  const getStatusColor = (status) => {
+  const getStatusColor = (status: any) => {
     switch (status) {
       case 'Menunggu':
         return 'bg-yellow-100 text-yellow-800';

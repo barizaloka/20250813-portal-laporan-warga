@@ -15,7 +15,7 @@ const FormLaporan = () => {
         </div>
         <div className="mb-4">
           <label htmlFor="deskripsi" className="block text-gray-700 font-bold mb-2">Deskripsi</label>
-          <textarea id="deskripsi" rows="4" className="w-full p-2 border rounded-md" placeholder="Jelaskan masalah yang terjadi..."></textarea>
+          <textarea id="deskripsi" rows={4} className="w-full p-2 border rounded-md" placeholder="Jelaskan masalah yang terjadi..."></textarea>
         </div>
         <div className="mb-4">
           <label htmlFor="lokasi" className="block text-gray-700 font-bold mb-2">Lokasi</label>
